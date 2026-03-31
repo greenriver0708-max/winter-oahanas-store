@@ -67,19 +67,17 @@ export default function Home() {
               Cozy season collection
             </p>
             <h2 className="max-w-xl text-5xl font-bold leading-tight md:text-6xl">
-              Winter pajamas made for warm nights and slow mornings.
-            </h2>
-            <p className="mt-6 max-w-lg text-lg leading-8 text-slate-600">
-              A polished storefront for premium winter pajama sets, featuring
-              seasonal collections, product highlights, customer reviews, and
-              simple shopping flows.
-            </p>
+  Stay warm all winter without turning up the heater.
+</h2>
+<p className="mt-6 max-w-lg text-lg leading-8 text-slate-600">
+  Our cozy, windproof padded pyjama sets keep you warm even below zero — helping you stay comfortable, save on electricity bills, and avoid dry skin.
+</p>
             <div className="mt-8 flex flex-wrap gap-4">
               <a
                 href="#shop"
                 className="rounded-2xl bg-slate-900 px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:opacity-90"
               >
-                Shop the collection
+               Shop Winter Pyjamas
               </a>
               <a
                 href="#why-us"
