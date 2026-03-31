@@ -167,7 +167,11 @@ export default function Home() {
                 key={product.name}
                 className="rounded-[2rem] bg-white p-5 shadow-sm ring-1 ring-stone-200"
               >
-                <div className="aspect-[4/5] rounded-[1.5rem] bg-gradient-to-br from-stone-200 to-stone-300" />
+                <img
+  src="/images/pajama1.jpg"
+  alt="Pajama set"
+  className="aspect-[4/5] w-full object-cover rounded-[1.5rem]"
+/>
                 <div className="mt-5 flex items-start justify-between gap-3">
                   <div>
                     <span className="rounded-full bg-stone-100 px-2.5 py-1 text-xs font-medium text-slate-600">
