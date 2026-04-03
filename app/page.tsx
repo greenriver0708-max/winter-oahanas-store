@@ -1,28 +1,32 @@
 export default function Home() {
   const products = [
     {
-      name: "Aurora Flannel Set",
-      price: "$68",
+      name: "Artic Shield Set",
+      price: "$98",
       badge: "Best Seller",
-      description: "Brushed cotton flannel with a relaxed fit for cold nights.",
+      description: "triple-insulated padded pyjamas set for men.",
+      image: "/images/pajama1.jpg",
     },
     {
-      name: "Snowfall Fleece Lounge Set",
-      price: "$74",
+      name: "Ember Cocoon Set",
+      price: "$89",
       badge: "New",
-      description: "Ultra-soft fleece with ribbed cuffs and extra warmth.",
+      description: "triple-insulated padded pyjamas set for women.",
+      image: "/images/pajama2.jpg",
     },
     {
-      name: "Nordic Knit Sleep Set",
-      price: "$82",
+      name: "Storm Guard Set",
+      price: "$89",
       badge: "Cozy Pick",
-      description: "Textured knit pajama set made for winter weekends.",
+      description: "triple-insulated padded pyjamas set for senior people.",
+      image: "/images/pajama3.jpg",
     },
     {
-      name: "Midnight Cabin Pajama Set",
+      name: "Polar Bear Kids Set",
       price: "$64",
       badge: "Limited",
-      description: "Classic plaid style with a breathable brushed interior.",
+      description: "triple-insulated padded pyjamas set for men.",
+      image: "/images/pajama4.jpg",
     },
   ];
 
@@ -166,9 +170,9 @@ export default function Home() {
                 className="rounded-[2rem] bg-white p-5 shadow-sm ring-1 ring-stone-200"
               >
                 <img
-  src="/images/pajama1.jpg"
-  alt="Pajama set"
-  className="aspect-[4/5] w-full object-cover rounded-[1.5rem]"
+  src={product.image}
+  alt={product.name}
+  className="aspect-[4/5] w-full rounded-[1.5rem] object-cover"
 />
                 <div className="mt-5 flex items-start justify-between gap-3">
                   <div>
